@@ -1,0 +1,76 @@
+.profile {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 2%;
+  box-shadow: 10px 9px 20px -4px rgba(0, 0, 0, 0.4);
+}
+
+.description {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 10px;
+  color: #1f3349;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.21;
+}
+
+.tag {
+  padding-top: 10px;
+}
+
+.location {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(243, 246, 249, 255);
+  border: 1px solid #e4e9f0;
+}
+
+.item {
+  display: flex;
+  flex-basis: calc(100% / 3);
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  text-align: center;
+  border-right: 1px solid #e4e9f0;
+  border-radius: 2%;
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.label {
+  padding: 20px 5px 5px 5px;
+}
+
+.quantity {
+  font-weight: 900;
+  color: #1f3349;
+  padding-bottom: 20px;
+}
