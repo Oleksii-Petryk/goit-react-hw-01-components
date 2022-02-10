@@ -3,6 +3,7 @@ import Profile from './components/Profile/Profile';
 import Statistics from './components/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import ReportsBalance from './components/ReportsBalance/TotalExpensesIncome';
 import user from './components/data/user.json';
 import statisticalData from './components/data/statistical-data.json';
 import friends from './components/data/friends.json';
@@ -28,6 +29,10 @@ function App() {
       
       <TransactionHistory
         items={transactions} />
+      <ReportsBalance
+        expenses='15 000'
+        income='20 000'
+      />
     </div>
   )
 }
