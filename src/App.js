@@ -4,6 +4,7 @@ import Statistics from './components/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import ReportsBalance from './components/ReportsBalance/TotalExpensesIncome';
+import Modal from './components/Multipurpose-modal/Multipurpose-modal';
 import user from './components/data/user.json';
 import statisticalData from './components/data/statistical-data.json';
 import friends from './components/data/friends.json';
@@ -13,7 +14,7 @@ import transactions from './components/data/transaction-history.json'
 function App() {
   return (
     <div className="App">
-      <Profile
+      {/* <Profile
         name={user.name}
         tag={user.tag}
         location={user.location}
@@ -29,10 +30,10 @@ function App() {
       
       <TransactionHistory
         items={transactions} />
-      <ReportsBalance
-        expenses='15 000'
-        income='20 000'
-      />
+      
+      <ReportsBalance/> */}
+
+      <Modal/>
     </div>
   )
 }
